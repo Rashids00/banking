@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",                // Supports top-level await and latest JS
+    "module": "NodeNext",              // Use Node.js native ESM
+    "moduleResolution": "NodeNext",    // Required for "NodeNext" module
+    "outDir": "dist",                  // Output compiled JS here
+    "rootDir": "API",                  // Source code location (adjust if needed)
+    "esModuleInterop": true,           // Allow default imports from CommonJS
+    "strict": true,                    // Enable all strict type checks
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,         // Allow importing JSON files
+    "allowSyntheticDefaultImports": true
+  },
+  "include": ["API/**/*.ts"],          // Include only TS files from src/
+  "exclude": ["node_modules"]
+}
