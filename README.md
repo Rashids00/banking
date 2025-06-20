@@ -1,11 +1,11 @@
 # Banking API
 
-# Installation & Local Setup:
+Installation & Local Setup:
 npm install
 
-# .env
+.env:
 PORT=4000
 MONGO_URI=mongodb-atlas-uri
 
-# Start Development Server
+Start Development Server:
 npn run dev
